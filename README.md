@@ -30,6 +30,7 @@ This project consist the APIs which will help teams to efficiently book the work
 
 2. Add new desks/meeting rooms:
    POST http://localhost:8001/work/station?name=desk3&type=desk&status=1
+   
    **Note: We should send the paramters in request body but to make it simple to test i am taking as query params, personally i don't prefer it.**
 
    **Request Parameters:**
@@ -39,6 +40,7 @@ This project consist the APIs which will help teams to efficiently book the work
 
 3. To book the work station:
     POST http://localhost:8001/booking?work_station_id=1&user_hash=test@gmail.com&start_time=10:00&end_time=17:00&date=04-05-2022
+    
     **Note: We should send the paramters in request body but to make it simple to test i am taking as query params, personally i don't prefer it.**
 
     **Request Parameters:**
